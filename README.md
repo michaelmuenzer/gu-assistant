@@ -10,5 +10,6 @@ Expand overflow and click **Run anyway**
 
 ## Run the application on macOS
 Right click on the app icon and press **Open**
+
 ![Windows security prompt](macos_dev_security.png)
 
