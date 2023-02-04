@@ -1,4 +1,5 @@
----\nlayout: page\ntitle: What's New\ninclude_in_header: true\n---
+---\nlayout: page\ntitle: What's New\ninclude_in_header: true
+---
 
 # Changelog
 
