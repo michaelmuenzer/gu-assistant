@@ -4,7 +4,7 @@ title: What's New
 include_in_header: true
 ---
 
-### `Latest`
+# Changelog 
 
 ## 0.0.20 - 2023-01-31
 
