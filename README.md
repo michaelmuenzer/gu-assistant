@@ -26,3 +26,5 @@ MacOS does not allow you to apps downloaded outside of the AppStore. You recieve
 
 ![macOS open from settings](mac_settings_security_open.png)
 
+## Credits
+- [changelog-updater](https://stefanzweifel.dev/posts/2021/11/13/introducing-the-changelog-updater-action)
