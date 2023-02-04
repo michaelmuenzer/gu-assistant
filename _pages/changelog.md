@@ -4,9 +4,18 @@ title: What's New
 include_in_header: true
 ---
 
-# Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
-
-<br>
-
 ### `Latest`
+
+## 0.0.20 - 2023-01-31
+
+### Added
+
+- Load your opponent's deck code manually
+
+## 0.0.19 - 2023-01-30
+
+### Added
+
+- Automatically load your deck
+- Predict your opponent's deck
+- Track played cards of you and your opponent
