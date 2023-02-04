@@ -1,8 +1,15 @@
+
 ---
-layout: page
+
+## 0.0.21 - 2023-02-04
+
+### Added
+
+- Test workflow
+
+## layout: page
 title: What's New
 include_in_header: true
----
 
 ### `Latest`
 
