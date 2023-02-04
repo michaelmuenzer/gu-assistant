@@ -1,14 +1,13 @@
-
----
-
-## 0.0.21 - 2023-02-04
+## 0.0.20 - 2023-01-31
 
 ### Added
 
-- Testing
+- Load your opponent's deck code manually
 
-## layout: page
-title: What's New
-include_in_header: true
+## 0.0.19 - 2023-01-30
 
-{% include_relative RAW_CHANGELOG.md %}
+### Added
+
+- Automatically load your deck
+- Predict your opponent's deck
+- Track played cards of you and your opponent
