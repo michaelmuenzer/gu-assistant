@@ -4,4 +4,4 @@ title: What's New
 include_in_header: true
 ---
 
-{% include_relative ../CHANGELOG.md %}
+{% include_relative RAW_CHANGELOG.md %}
