@@ -24,19 +24,6 @@
 	width: 250px;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.videoContainer {
-		width: 400px;
-		margin-left: 0px;
-		margin-top: 17px;
-	}
-
-	.videoContainer > video {
-		width: 400px;
-	}
-}
-
 .subPageHeaderBackground {
 	background-color: #fff;
 }
@@ -62,47 +49,11 @@
 	background-color: #fff;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.container {					// Set up the container for the site content
-		grid-template-rows: 80px 811px auto auto;
-	}
-}
-
-@media only screen and (max-width: 900px) {
-
-	.container {
-		grid-column-gap: 0px;
-		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
-		grid-template-areas: 
-			"h h h h h h h h h h h h"
-			"i i i i i i i i i i i i"
-			"p p p p p p p p p p p p"
-			"c c c c c c c c c c c c"
-			"f f f f f f f f f f f f";
-	}
-
-	.headerBackground {
-		height: 150px;
-	}
-}
-
 .page {
 	margin-top: 30px;
 	margin-bottom: 70px;
 	grid-column: 3/11;
 }
-
-@media only screen and (max-width: 768px) {
-
-	.page {
-		margin-top: 30px;
-		margin-bottom: 70px;
-		grid-column: 1/-1;
-	}
-	
-} 
 
 header {
 	grid-area: h;
@@ -127,39 +78,12 @@ header {
 	margin-left: 15px;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.logo {
-		height: 80px;
-		margin-right: 0px;
-	}
-
-	.logo > p {
-		display: none;
-	}
-	
-} 
-
 .headerIcon {
 	width: 50px;
 	height: 50px;
 	-webkit-clip-path: url(#shape);
 	clip-path: url(#shape);
 }
-
-@media only screen and (max-width: 768px) {
-
-	.divider {
-		position: relative;
-		min-width: 1px;
-		max-width: 1px;
-		background-color:rgba(127, 127, 127, 0.2);
-		display: inline-block;
-		margin-left: 15px;
-	}	
-	
-} 
-
 
 // Navigation Links
 .scroll {
@@ -178,18 +102,6 @@ header {
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.scroll {
-		height: 80px;
-		padding-top: 100px;
-		padding-bottom: 100px;
-		margin-top: -60px;
-		justify-content: flex-start;
-	}	
-	
-} 
-
 .scroll::-webkit-scrollbar {
 	display: none;
 }
@@ -204,14 +116,6 @@ nav > ul {
 
 nav > ul li {
 	padding-left: 30px;
-}
-
-@media only screen and (max-width: 768px) {
-
-	nav > ul li {
-		padding-left: 20px;
-	}
-
 }
 
 nav > ul li:first-child {
@@ -235,8 +139,6 @@ nav > ul li a:active {
 	color: rgba($header-title-color, 1);
 }
 
-
-
 // Sub Page Header Styling
 .subPageHeaderBackground .logo > p {
 	color: #000;
@@ -252,8 +154,6 @@ nav > ul li a:active {
 	color: rgba(#000, 1);
 }
 
-
-
 // App Title, Price, Description and Links
 
 .appInfo {
@@ -263,15 +163,6 @@ nav > ul li a:active {
 	padding-top: 40px;
 	align-content: flex-start;
 }
-
-@media only screen and (max-width: 900px) {
-
-	.appInfo {
-		padding-top: 50px;
-		justify-content: center;
-	}
-
-} 
 
 .appIconShadow {
 	display: flex;
@@ -308,27 +199,6 @@ nav > ul li a:active {
 	margin-top: 13px;
 }
 
-@media only screen and (max-width: 768px) {
-
-	.appNamePriceContainer {
-		width: 100%;
-		margin-left: 0px;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.appName {
-		margin-top: 30px;
-		text-align: center;
-	}
-	
-	.appPrice {
-		margin-top: 13px;
-		text-align: center;
-	}
-	
-} 
-
 .appDescriptionContainer {
 	font-size: 2.5rem;
 	font-weight: normal;
@@ -343,68 +213,20 @@ nav > ul li a:active {
 	color: $app-description-color;
 }
 
-@media only screen and (max-width: 900px) {
-
-	.appDescription {
-		text-align: center;
-	}
-	
-} 
-
 .downloadButtonsContainer {
 	display: inline-block;
 	margin-top: 42px;
 	filter: $drop-shadow;
 }
 
-@media only screen and (max-width: 900px) {
-
-	.downloadButtonsContainer {
-		text-align: center;
-	}
-	
-} 
-
 .playStore {
 	height: 75px;
 	margin-right: 24px;
 }
 
-@media only screen and (max-width: 900px) {
-
-	.playStore {
-		margin-right: 24px;
-		margin-bottom: 0px;
-	}
-	
-} 
-
-@media only screen and (max-width: 528px) {
-
-	.playStore {
-		margin-right: 0px;
-		margin-bottom: 24px;
-	}
-	
-
-	.videoContainer {
-		width: 300px;
-		margin-left: 0px;
-		margin-top: 17px;
-	}
-
-	.videoContainer > video {
-		width: 300px;
-	}
-} 
-
 .appStore {
 	height: 75px;
 }
-
-
-
-// iPhone Device Preview
 
 .videoContainer {
 	width: 698px;
@@ -428,26 +250,8 @@ nav > ul li a:active {
 	
 	.videoContainer > video {
 		width: 400px;
-	}
-	
+	}	
 } 
-
-@media only screen and (max-width: 900px) {
-
-	.videoContainer {
-		width: 700px;
-		margin-left: 0px;
-		margin-top: 17px;
-	}
-
-	.videoContainer > video {
-		width: 700px;
-	}
-	
-} 
-
-
-// Feature List
 
 .features {
 	grid-area: c;
@@ -510,80 +314,6 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
-@media only screen and (max-width: 900px) {
-
-	.features {
-		flex-grow: 1;
-		flex-direction: row;
-		flex-wrap: wrap;
-		margin-top: 11px;
-	}
-
-	.feature {
-		display: flex;
-		padding-top: 41px;
-		padding-left: 15px;
-		padding-right: 15px;
-		width: 100%;
-	}
-
-	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
-	}
-
-	.feature:nth-child(1) {
-		padding-top: 0px;   
-	}
-
-	.feature:nth-child(3n) {
-		padding-right: 15px;
-	}
-	
-	.feature:nth-child(3n+1) {
-		padding-left: 15px;
-	}
-	
-}
-
-@media only screen and (max-width: 375px) {
-
-	.features {
-		flex-grow: 1;
-		flex-direction: row;
-		flex-wrap: wrap;
-		margin-top: 11px;
-	}
-
-	.feature {
-		display: flex;
-		padding-top: 41px;
-		padding-left: 0px;
-		padding-right: 0px;
-		width: 100%;
-	}
-
-	.feature:nth-child(-n+3) {
-		padding-top: 41px;   
-	}
-
-	.feature:nth-child(1) {
-		padding-top: 0px;   
-	}
-
-	.feature:nth-child(3n) {
-		padding-right: 0px;
-	}
-	
-	.feature:nth-child(3n+1) {
-		padding-left: 0px;
-	}
-	
-} 
-
-
-
-// Footer
-
 footer {
 	grid-area: f;
 	display: flex;
@@ -623,27 +353,59 @@ footer {
 	margin-right: 0px;
 }
 
-
-@media only screen and (max-width: 768px) {
-
-	.footerLinks {
-		flex-direction: column;
-	}
-
-	.footerLinks a {
-		justify-content: stretch;
-		margin-right: 0px;
-		margin-top: 20px;
-	}
-
-	.footerLinks a:first-child {
-		margin-top: 0px;
-	}	
-
+.hidden {
+	display: none;
 }
 
 @media only screen and (max-width: 900px) {
+
+	.container {
+		grid-column-gap: 0px;
+		grid-template-columns: 1;
+		grid-template-rows: 115px auto auto auto auto;
+		grid-template-areas: 
+			"h h h h h h h h h h h h"
+			"i i i i i i i i i i i i"
+			"p p p p p p p p p p p p"
+			"c c c c c c c c c c c c"
+			"f f f f f f f f f f f f";
+	}
+
+	.headerBackground {
+		height: 150px;
+	}
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 15px;
+	}
 	
+	.feature:nth-child(3n+1) {
+		padding-left: 15px;
+	}
+		
 	.footerText {
 		color: $footer-text-color;
 		display: block;
@@ -658,10 +420,170 @@ footer {
 		padding-top: 30px;
 		padding-bottom: 30px;
 		display: flex;
+	}	
+
+	.appInfo {
+		padding-top: 50px;
+		justify-content: center;
+	}
+
+	.playStore {
+		margin-right: 24px;
+		margin-bottom: 0px;
+	}
+
+	.videoContainer {
+		width: 700px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer > video {
+		width: 700px;
+	}
+	
+	.downloadButtonsContainer {
+		text-align: center;
+	}
+	.appDescription {
+		text-align: center;
+	}
+} 
+
+@media only screen and (max-width: 768px) {
+
+	.container {					// Set up the container for the site content
+		grid-template-rows: 80px 811px auto auto;
+	}
+
+	.videoContainer {
+		width: 400px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer > video {
+		width: 400px;
+	}
+	
+	.page {
+		margin-top: 30px;
+		margin-bottom: 70px;
+		grid-column: 1/-1;
+	}
+	
+	.logo {
+		height: 80px;
+		margin-right: 0px;
+	}
+
+	.logo > p {
+		display: none;
+	}
+	
+	.divider {
+		position: relative;
+		min-width: 1px;
+		max-width: 1px;
+		background-color:rgba(127, 127, 127, 0.2);
+		display: inline-block;
+		margin-left: 15px;
+	}	
+	
+	.scroll {
+		height: 80px;
+		padding-top: 100px;
+		padding-bottom: 100px;
+		margin-top: -60px;
+		justify-content: flex-start;
+	}	
+
+	nav > ul li {
+		padding-left: 20px;
+	}
+
+	.appNamePriceContainer {
+		width: 100%;
+		margin-left: 0px;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.appName {
+		margin-top: 30px;
+		text-align: center;
+	}
+	
+	.appPrice {
+		margin-top: 13px;
+		text-align: center;
+	}
+	
+
+	.footerLinks {
+		flex-direction: column;
+	}
+
+	.footerLinks a {
+		justify-content: stretch;
+		margin-right: 0px;
+		margin-top: 20px;
+	}
+
+	.footerLinks a:first-child {
+		margin-top: 0px;
+	}	
+} 
+
+@media only screen and (max-width: 528px) {
+
+	.playStore {
+		margin-right: 0px;
+		margin-bottom: 24px;
+	}
+	
+	.videoContainer {
+		width: 300px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer > video {
+		width: 300px;
+	}
+} 
+
+@media only screen and (max-width: 375px) {
+
+	.features {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.feature {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+
+	.feature:nth-child(-n+3) {
+		padding-top: 41px;   
+	}
+
+	.feature:nth-child(1) {
+		padding-top: 0px;   
+	}
+
+	.feature:nth-child(3n) {
+		padding-right: 0px;
+	}
+	
+	.feature:nth-child(3n+1) {
+		padding-left: 0px;
 	}
 	
 } 
-
-.hidden {
-	display: none;
-}
