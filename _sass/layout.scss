@@ -103,6 +103,7 @@ header {
 	align-items: center;
 	height: 115px;
 	margin-right: 30px;
+	padding-left: 20px;
 }
 
 .logo > p {
@@ -379,7 +380,7 @@ nav > ul li a:active {
 // iPhone Device Preview
 
 .videoContainer {
-	width: 349px;
+	width: 698px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
@@ -387,7 +388,7 @@ nav > ul li a:active {
 }
 
 .videoContainer > video {
-	width: 349px;
+	width: 698px;
 }
 
 @media only screen and (max-width: 1070px) {
