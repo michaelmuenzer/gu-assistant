@@ -1,5 +1,5 @@
 .imageWrapper {					// Sets the background image in the header area
-	height: 714px;
+	height: 700px;
 	background: 
 		linear-gradient(
 		rgba($image-overlay-color, $image-overlay-transparency), 
@@ -43,7 +43,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 500px auto auto;
+	grid-template-rows: 115px 550px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
@@ -286,6 +286,10 @@ nav > ul li a:active {
 }
 
 .appName {
+	background: linear-gradient( to bottom, #FFF2D8 0%, #C6A052 100% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 	color: $app-title-color;
 }
 
