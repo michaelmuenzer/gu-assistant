@@ -3,8 +3,6 @@ layout: page
 title: Privacy Policy
 include_in_header: false
 ---
-
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
