@@ -44,12 +44,19 @@
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            
+                            {% if site.appstore_link %}
+                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% endif %}
+
+                                <a class="macLink" href="{{site.mac_link}}"><img class="macDownload" src="assets/mac_download.png"></a>
+                                <a class="winLink" href="{{site.win_link}}"><img class="winDownload" src="assets/win_download.png"></a>
                         </div>
                     </div>
                     {% include features.html %}
                     {% include footer.html %}
                     {% include appstoreimages.html %}
+                    {% include githubreleases.html %}
                 </div>
             </div>
         </div>
