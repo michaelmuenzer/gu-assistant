@@ -380,7 +380,6 @@ nav > ul li a:active {
 
 .videoContainer {
 	width: 349px;
-	height: 755px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
 	margin-left: 26px;
@@ -389,21 +388,18 @@ nav > ul li a:active {
 
 .videoContainer > video {
 	width: 349px;
-	height: 755px;
 }
 
 @media only screen and (max-width: 1070px) {
 
 	.videoContainer {
 		width: 322px;
-		height: 698px;
 		margin-left: 24px;
 		margin-top: 22px;
 	}
 	
 	.videoContainer > video {
 		width: 322px;
-		height: 698px;
 	}
 	
 } 
@@ -412,14 +408,12 @@ nav > ul li a:active {
 
 	.videoContainer {
 		width: 226px;
-		height: 488px;
 		margin-left: 0px;
 		margin-top: 17px;
 	}
 
 	.videoContainer > video {
 		width: 226px;
-		height: 488px;
 	}
 	
 } 
@@ -580,7 +574,8 @@ footer {
 }
 
 .footerIcons {
-	padding-bottom: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	display: flex;
 	flex: 0 0 100%;
 	justify-content: center;
@@ -632,7 +627,8 @@ footer {
 	}
 	
 	.footerIcons {
-		padding-bottom: 70px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 		display: flex;
 	}
 	
