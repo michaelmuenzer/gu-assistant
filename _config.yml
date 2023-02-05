@@ -44,7 +44,7 @@ features                                  :
     fontawesome_icon_name                 : play-circle
 
   - title                                 : In-battle card tracking
-    description                           : While playing, GU Assistant tracks which cards you and your opponent have still left in their decks
+    description                           : Tracks which cards you and your opponent have still left in your decks
     fontawesome_icon_name                 : sync
 
   - title                                 : # New Feature Title
