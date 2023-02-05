@@ -42,15 +42,15 @@
                         </div>
                         <div class="downloadButtonsContainer">
                             {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
+                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore downloadBanner" src="assets/playstore.png"></a>
                             {% endif %}
                             
                             {% if site.appstore_link %}
-                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore downloadBanner" src="assets/appstore.png"></a>
                             {% endif %}
 
-                                <a class="macLink" href="{{site.mac_link}}"><img class="macDownload" src="assets/mac_download.png"></a>
-                                <a class="winLink" href="{{site.win_link}}"><img class="winDownload" src="assets/win_download.png"></a>
+                                <a class="macLink" href="{{site.mac_link}}"><img class="macDownload downloadBanner" src="assets/mac_download.png"></a>
+                                <a class="winLink" href="{{site.win_link}}"><img class="winDownload downloadBanner" src="assets/win_download.png"></a>
                         </div>
                     </div>
                     {% include features.html %}

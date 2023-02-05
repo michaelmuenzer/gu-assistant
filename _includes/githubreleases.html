@@ -7,21 +7,26 @@ $(function() {
     var apiURL = "https://api.github.com/repos/michaelmuenzer/gu-assistant/releases/latest";
 
     $.getJSON(apiURL, function(json) {
-
-        if (json.results && json.results.length) {
-
+        console.log(json)
+        if (json && json.name) {
+            var releaseName = json.name
             console.info("Release download urls loaded from Github API.");
-            console.log(json)
-            var assets = json.assets;
 
             // Set Mac download link if it is not set manually in _config.yml
             var $macLink = $(".macLink");
             if ($.trim($macLink.attr('href')).length == 0) {
-                $($macLink).attr("href", macLink.trackViewUrl);
+                //https://github.com/michaelmuenzer/gu-assistant/releases/download/v0.0.20/GU-Assistant-0.0.20.dmg
+                var downloadUrl = 'https://github.com/michaelmuenzer/gu-assistant/releases/download/v' + releaseName + '/GU-Assistant-' + releaseName + '.dmg'
+                $($macLink).attr("href", downloadUrl);
             }
 
-            console.info(assets);
-
+            // Set Windows download link if it is not set manually in _config.yml
+            var $winLink = $(".winLink");
+            if ($.trim($winLink.attr('href')).length == 0) {
+                // https://github.com/michaelmuenzer/gu-assistant/releases/download/v0.0.20/GU-Assistant-Setup-0.0.20.exe
+                var downloadUrl = 'https://github.com/michaelmuenzer/gu-assistant/releases/download/v' + releaseName + '/GU-Assistant-Setup-' + releaseName + '.exe'
+                $($winLink).attr("href", downloadUrl);
+            }
         }
     });  
 });
