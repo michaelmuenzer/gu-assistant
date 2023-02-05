@@ -26,10 +26,15 @@
 
 @media only screen and (max-width: 768px) {
 
-	.headerBackground {
-		height: 80px;
+	.videoContainer {
+		width: 400px;
+		margin-left: 0px;
+		margin-top: 17px;
 	}
 
+	.videoContainer > video {
+		width: 400px;
+	}
 }
 
 .subPageHeaderBackground {
@@ -76,6 +81,10 @@
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
+	}
+
+	.headerBackground {
+		height: 150px;
 	}
 }
 
@@ -377,6 +386,16 @@ nav > ul li a:active {
 		margin-bottom: 24px;
 	}
 	
+
+	.videoContainer {
+		width: 300px;
+		margin-left: 0px;
+		margin-top: 17px;
+	}
+
+	.videoContainer > video {
+		width: 300px;
+	}
 } 
 
 .appStore {
