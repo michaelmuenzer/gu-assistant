@@ -47,7 +47,7 @@
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
-		"p p p i i i i i i i i i"
+		"p p i i i i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -64,7 +64,7 @@
 	}
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.container {
 		grid-column-gap: 0px;
@@ -255,7 +255,7 @@ nav > ul li a:active {
 	align-content: flex-start;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.appInfo {
 		padding-top: 50px;
@@ -334,7 +334,7 @@ nav > ul li a:active {
 	color: $app-description-color;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.appDescription {
 		text-align: center;
@@ -348,7 +348,7 @@ nav > ul li a:active {
 	filter: $drop-shadow;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.downloadButtonsContainer {
 		text-align: center;
@@ -361,7 +361,7 @@ nav > ul li a:active {
 	margin-right: 24px;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.playStore {
 		margin-right: 24px;
@@ -413,16 +413,16 @@ nav > ul li a:active {
 	
 } 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.videoContainer {
-		width: 300px;
+		width: 700px;
 		margin-left: 0px;
 		margin-top: 17px;
 	}
 
 	.videoContainer > video {
-		width: 300px;
+		width: 700px;
 	}
 	
 } 
@@ -491,7 +491,7 @@ nav > ul li a:active {
 	line-height: 1.5;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 
 	.features {
 		flex-grow: 1;
@@ -623,7 +623,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 900px) {
 	
 	.footerText {
 		color: $footer-text-color;
