@@ -431,7 +431,7 @@ footer {
 	.videoContainer {
 		width: 700px;
 		margin-left: 0px;
-		margin-top: 50px;
+		margin-top: 210px;
 	}
 
 	.videoContainer > video {
@@ -530,7 +530,7 @@ footer {
 	}	
 } 
 
-@media only screen and (max-width: 528px) {
+@media only screen and (max-width: 450px) {
 
 	.playStore {
 		margin-right: 0px;
