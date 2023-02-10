@@ -1,3 +1,14 @@
+## 0.0.21 - 2023-02-10
+
+### Changed
+
+- Improved opponent's deck prediction.
+
+### Fixed
+
+- Some visual glitches in the input fields
+- Icon rendering on Windows
+
 ## 0.0.20 - 2023-01-31
 
 ### Added
