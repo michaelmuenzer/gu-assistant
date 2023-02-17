@@ -271,6 +271,17 @@ nav > ul li a:active {
 	padding-left: 0px;
 }
 
+.questions {
+	grid-area: c;
+	display: flex;
+	flex: 0 1 auto;
+	align-content: flex-start;
+	justify-content: flex-start;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	margin-top: 93px;
+}
+
 .iconBack {
 	color: $feature-icons-background-color;
 }
