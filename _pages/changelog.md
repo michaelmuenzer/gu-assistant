@@ -1,3 +1,9 @@
+## 0.0.22 - 2023-02-17
+
+### Security
+
+- Notarized application on macOS to prevent security warnings
+
 ## 0.0.21 - 2023-02-10
 
 ### Changed
