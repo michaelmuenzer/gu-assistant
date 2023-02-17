@@ -51,6 +51,26 @@ features                                  :
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
+# Question List                            Edit, add or remove FAQ questions to be presented.
+questions                                 :
+
+  - title                                 : Is it free?
+    answer                                : Yes, currently it is an alpha version where all functionality if free.
+    
+  - title                                 : I get a security warning. Is it safe to use?
+    answer                                : Yes. There might be security warnings as we dont distribute versions via the official app stores. This allows us to incorporate feedback much faster at a low cost. If this is a strong reason to not try the application, please write us at guassistant@icloud.com. 
+
+  - title                                 : Does Gods Unchained see this as cheating?
+    answer                                : No, there have been similar applications in the past where the team did not see this as violating existing policies.
+
+  - title                                 : Isn't this hacking?
+    answer                                : No, we essentially just automate the process of note taking during a battle. You can achieve the same with pen and paper manually.
+
+  - title                                 : How does this work?
+    answer                                : We make use of open information you collect while playing the game. Similar to the in-game battle log, the purpose of this application is it to help you building better skills and ultimately have more fun playing.
+  
+  - title                                 : # Question Title
+    answer                                : # Question Answer
 
 
 # Theme Settings

@@ -1,0 +1,14 @@
+<div class="features">
+
+    {% for question in site.questions %}
+
+    {% if question.title %}
+    <details>
+        <summary>{{ question.title }}</summary>
+        <p>{{ question.answer }}</p>
+    </details>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
