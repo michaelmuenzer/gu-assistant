@@ -58,7 +58,7 @@ questions                                 :
     answer                                : Yes, currently it is an alpha version where all functionality if free.
     
   - title                                 : I get a security warning. Is it safe to use?
-    answer                                : Yes. There might be security warnings as we dont distribute versions via the official app stores. This allows us to incorporate feedback much faster at a low cost. If this is a strong reason to not try the application, please write us at <a href = "mailto: guassistant@icloud.com">guassistant@icloud.com</a>. 
+    answer                                : "Yes. There might be security warnings as we dont distribute versions via the official app stores. This allows us to incorporate feedback much faster at a low cost. If this is a strong reason to not try the application, please write us at <a href = \"mailto: guassistant@icloud.com\">guassistant@icloud.com</a>."
 
   - title                                 : Does Gods Unchained see this as cheating?
     answer                                : No, there have been similar applications in the past where the team did not see this as violating existing policies.
