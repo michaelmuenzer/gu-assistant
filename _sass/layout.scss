@@ -107,7 +107,6 @@ header {
 	display: none;
 }
 
-
 nav > ul {
 	color: #fff;
 	display: flex;
@@ -274,7 +273,20 @@ nav > ul li a:active {
 
 .questions {
 	grid-area: q;
-	margin-top: 93px;
+	margin-top: 64px;
+	margin-left: 8px;
+}
+
+details {
+	margin-bottom: 16px;
+}
+
+summary {
+	color: $feature-title-color;
+}
+
+details > p {
+	color: $feature-text-color;
 }
 
 .iconBack {
