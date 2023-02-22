@@ -63,10 +63,10 @@ questions                                 :
     answer                                : "Yes. There might be security warnings as we don't distribute the app via official app stores. That allows us to incorporate feedback much faster at a low cost. If this is a strong reason not to use the application, please write us at <a href = \"mailto: guassistant@icloud.com\">guassistant@icloud.com</a>."
 
   - title                                 : Does Gods Unchained see this as cheating?
-    answer                                : There have been similar applications before where the team did not see this violating existing policies. Find a related conversation on GU Discord <a href=\"https://discord.com/channels/457152051239976961/475481117244391424/1073930374213799967\">here</a>.
+    answer                                : "There have been similar applications before where the team did not see this violating existing policies. Find a related conversation on GU Discord <a href=\"https://discord.com/channels/457152051239976961/475481117244391424/1073930374213799967\">here</a>."
 
   - title                                 : Isn't this hacking?
-    answer                                : No, we essentially only automate the note-taking during a battle. You can achieve the same with pen and paper. Similar applications exist for most major online TCGs like <a href=\"https://hsreplay.net/\">Hearthstone</a>.
+    answer                                : "No, we essentially only automate the note-taking during a battle. You can achieve the same with pen and paper. Similar applications exist for most major online TCGs like <a href=\"https://hsreplay.net/\">Hearthstone</a>."
 
   - title                                 : How does this work?
     answer                                : We make use of the information you collect while playing the game. Similar to the in-game battle log. For this purpose, we need access to the log files on your computer and the internet to match them with our database.
