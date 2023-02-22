@@ -13,7 +13,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/icon_512x512.png                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : GU Assistant                              # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Improve your God's Unchained skills. Rank higher, win more.
+app_description                           : The companion app to improve your Gods Unchained skills. Rank higher, win more.
 
 enable_smart_app_banner                   : false                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -36,15 +36,15 @@ youtube_username                          : GUAssistant
 features                                  :
 
   - title                                 : Opponent's deck prediction
-    description                           : Automatically predicts your opponent's deck based on their game history.
+    description                           : Automatically predicts your opponent's deck. Also works for obfuscated player names like ???.
     fontawesome_icon_name                 : magic
     
   - title                                 : Load deck via deck code
-    description                           : Load the deck of your opponent manually. This is great for tournaments with open deck lists.
+    description                           : Load the deck of your opponent manually. That is great for tournaments with open deck lists.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : In-battle card tracking
-    description                           : Tracks which cards you and your opponent have still left in your decks
+  - title                                 : Real-time deck tracker
+    description                           : Tracks which cards you and your opponent have still left in your decks.
     fontawesome_icon_name                 : sync
 
   - title                                 : # New Feature Title
@@ -53,21 +53,23 @@ features                                  :
 
 # Question List                            Edit, add or remove FAQ questions to be presented.
 questions                                 :
-
+  - title                                 : Why are you doing this?
+    answer                                : The purpose of this application is to help you build better skills and ultimately have a more fun and competitive play. Similar to having open decklists in tournaments.
+, 
   - title                                 : Is it free?
-    answer                                : Yes, currently it is an alpha version where all functionality if free.
+    answer                                : Yes, all functionality in the current alpha version is free.
     
   - title                                 : I get a security warning. Is it safe to use?
-    answer                                : "Yes. There might be security warnings as we dont distribute the app via the official app stores. This allows us to incorporate feedback much faster at a low cost. If this is a strong reason to not try the application, please write us at <a href = \"mailto: guassistant@icloud.com\">guassistant@icloud.com</a>."
+    answer                                : "Yes. There might be security warnings as we don't distribute the app via official app stores. That allows us to incorporate feedback much faster at a low cost. If this is a strong reason not to use the application, please write us at <a href = \"mailto: guassistant@icloud.com\">guassistant@icloud.com</a>."
 
   - title                                 : Does Gods Unchained see this as cheating?
-    answer                                : No, there have been similar applications in the past where the team did not see this as violating existing policies.
+    answer                                : There have been similar applications before where the team did not see this violating existing policies. Find a related conversation on GU Discord <a href=\"https://discord.com/channels/457152051239976961/475481117244391424/1073930374213799967\">here</a>.
 
   - title                                 : Isn't this hacking?
-    answer                                : No, we essentially just automate the process of note taking during a battle. You can achieve the same with pen and paper manually.
+    answer                                : No, we essentially only automate the note-taking during a battle. You can achieve the same with pen and paper. Similar applications exist for most major online TCGs like <a href=\"https://hsreplay.net/\">Hearthstone</a>.
 
   - title                                 : How does this work?
-    answer                                : We make use of open information you collect while playing the game. Similar to the in-game battle log, the purpose of this application is it to help you building better skills and ultimately have more fun playing.
+    answer                                : We make use of the information you collect while playing the game. Similar to the in-game battle log. For this purpose, we need access to the log files on your computer and the internet to match them with our database.
   
   - title                                 : # Question Title
     answer                                : # Question Answer
