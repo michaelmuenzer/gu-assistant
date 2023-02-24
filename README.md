@@ -15,3 +15,4 @@ Expand overflow with **More info** and click **Run anyway**
 
 ## Credits
 - [changelog-updater](https://stefanzweifel.dev/posts/2021/11/13/introducing-the-changelog-updater-action)
+- In-app deck icons by Daniel Solis from <a href="https://thenounproject.com/browse/collection-icon/card-games-7665/?p=1" target="_blank" title="deck of cards Icons">Noun Project</a>
