@@ -1,3 +1,16 @@
+## 0.0.31 - 2023-03-07
+
+### Changed
+
+- More compact UI to fit everything on the screen without scrolling
+
+### Added
+
+- Calculate and show card drawing probability for you
+- Calculate and show card holding probability for opponent
+- Single card processing for *Lysander's Mercy*
+- Single card processing for *Double Dealer*
+
 ## 0.0.23 - 2023-02-22
 
 ### Removed
