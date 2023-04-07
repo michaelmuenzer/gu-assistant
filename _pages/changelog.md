@@ -1,3 +1,9 @@
+## 0.0.32 - 2023-04-07
+
+### Fixed
+
+- Zoom Tooltip not always showing the right card
+
 ## 0.0.31 - 2023-03-07
 
 ### Changed
