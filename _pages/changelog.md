@@ -1,3 +1,13 @@
+## 0.0.36 - 2023-05-03
+
+### Added
+
+- Link Opponent's name to GU decks profile
+
+### Fixed
+
+- UI glitch with survey overlay
+
 ## 0.0.32 - 2023-04-07
 
 ### Fixed
