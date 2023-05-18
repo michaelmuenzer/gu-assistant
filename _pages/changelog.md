@@ -1,3 +1,9 @@
+## 0.0.37 - 2023-05-18
+
+### Removed
+
+- Automatic processing of Cutthroat Insight with the balance patch of 16.05.23
+
 ## 0.0.36 - 2023-05-03
 
 ### Added
